@@ -1,7 +1,7 @@
 import requests
 
-url_template = 'http://wttr.in/{}?nTqum&lang=ru'
-payload = {'Tqum':'', 'lang':'ru'}
+url_template = 'http://wttr.in/{}'
+payload = {'nTqm': '', 'lang': 'ru'}
 locations = ['London', 'svo', 'Череповец']
 
 for location in locations:
